@@ -39,6 +39,6 @@ $jsonfile = json_encode($data, JSON_PRETTY_PRINT);
 
 
 $anggota = file_put_contents($file, $jsonfile);
-system('sh proses'); 
+
 
 ?>
